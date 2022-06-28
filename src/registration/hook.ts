@@ -1,6 +1,6 @@
 import {ChangeEvent, useState} from "react";
 
-export const useService = () => {
+export const useRegistrationService = () => {
   const [user, setUser] = useState({name: "", password: ""})
 
   const onChangeField = (fieldName: keyof typeof user) => {
