@@ -7,10 +7,26 @@
     align-items: center;
 }
 
+.title {
+    font-size: 20px;
+}
+
 .name {
+    margin-top: 10px;
     width: 200px;
+    height: 30px;
 }
 
 .password {
+    margin-top: 5px;
     width: 200px;
+    height: 30px;
+}
+
+.button {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 14px;
 }

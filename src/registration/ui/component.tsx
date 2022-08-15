@@ -7,7 +7,7 @@ export const Registration: React.FC = () => {
 
   return (
     <div className={style.container}>
-      <div>
+      <div className={style.title}>
         Registration
       </div>
         <input
@@ -23,7 +23,7 @@ export const Registration: React.FC = () => {
           onChange={registrationService.onChangeField("password")}
           type="password"
         />
-      <button>Register</button>
+      <button className={style.button}>Register</button>
     </div>
   )
 }

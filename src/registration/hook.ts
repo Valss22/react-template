@@ -13,6 +13,7 @@ export const useRegistrationService = () => {
       })
     }
   }
+
   return {
     user, onChangeField
   }
