@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Switch, Route} from 'react-router-dom'
-import {Registration} from "./registration/ui/component";
+import {Registration} from "./pages/registration/ui/component";
 
 export const App: React.FC = () => {
   return (
