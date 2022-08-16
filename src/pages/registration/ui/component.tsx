@@ -25,8 +25,9 @@ export const Registration: React.FC = () => {
       />
       <button
         className={style.button}
-        onClick={registrationService.sendState}
+        onClick={registrationService.sendUserData}
       >Register</button>
+      <div className={style.error}>{registrationService.error}</div>
     </div>
   )
 }
