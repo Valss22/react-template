@@ -2,8 +2,8 @@ import {ChangeEvent, useState} from "react";
 import {BASE_URL} from "../../common/vars";
 import {UserData, UserError} from "./types";
 
-export const useRegistrationService = () => {
-  const url = BASE_URL + "user/register/"
+
+export const useUserFormService = (url: string) => {
   const [error, setError] = useState("")
   const [user, setUser] = useState({username: "", password: ""})
 
@@ -18,7 +18,7 @@ export const useRegistrationService = () => {
     }
   }
   const sendUserData = () => {
-    return fetch(url, {
+    return fetch(BASE_URL + url, {
       method: "post",
       body: JSON.stringify(user),
       headers: {

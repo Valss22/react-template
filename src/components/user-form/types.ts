@@ -7,3 +7,8 @@ export interface UserData {
 export interface UserError {
   error: string
 }
+
+export interface UserProps {
+  url: string
+  title: string
+}
