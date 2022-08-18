@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./user-form.module.css"
+import style from "./UserForm.module.css"
 import {useUserFormService} from "./hook";
 import {UserProps} from "./types";
 

@@ -1,0 +1,9 @@
+.header {
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: right;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+    height: 60px;
+}
