@@ -1,34 +1,38 @@
 .container {
     display: flex;
     width: 100%;
-    height: calc(100vh - 2 * 60px);
+    height: calc(100vh - 2 * 50px);
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .title {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .name {
     margin-top: 10px;
-    width: 200px;
-    height: 30px;
+    width: 220px;
+    height: 35px;
 }
 
 .password {
     margin-top: 5px;
-    width: 200px;
-    height: 30px;
+    width: 220px;
+    height: 35px;
 }
 
 .button {
     cursor: pointer;
     width: 100px;
-    height: 30px;
-    margin-top: 20px;
-    font-size: 14px;
+    height: 40px;
+    margin-top: 25px;
+    font-size: 16px;
+    background: #1abc9c;
+    border: none;
+    color: white;
+    border-radius: 3px;
 }
 
 .error {

@@ -3,7 +3,7 @@ import {BASE_URL} from "../../common/vars";
 import {UserData, UserError} from "./types";
 
 
-export const useUserFormService = (url: string) => {
+export const useUserForm = (url: string) => {
   const [error, setError] = useState("")
   const [user, setUser] = useState({username: "", password: ""})
 

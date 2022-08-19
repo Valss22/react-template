@@ -5,5 +5,15 @@
     background: #1abc9c;
     color: white;
     font-size: 20px;
-    height: 60px;
+    height: 50px;
+}
+
+.register {
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.login {
+    margin-left: 17px;
+    cursor: pointer;
 }

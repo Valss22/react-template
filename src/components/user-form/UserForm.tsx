@@ -1,10 +1,10 @@
 import React from "react";
 import style from "./UserForm.module.css"
-import {useUserFormService} from "./hook";
+import {useUserForm} from "./hook";
 import {UserProps} from "./types";
 
 export const UserForm: React.FC<UserProps> = (props) => {
-  const userFormService = useUserFormService(props.url)
+  const userFormService = useUserForm(props.url)
 
   return (
     <div className={style.container}>
