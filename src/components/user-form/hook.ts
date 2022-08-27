@@ -1,7 +1,7 @@
 import {ChangeEvent, useState} from "react";
-import {BASE_URL} from "../../common/vars";
 import {UserData, UserError} from "./types";
 import {useHistory} from "react-router-dom"
+import {BASE_URL} from "../../common";
 
 export const useUserForm = (url: string) => {
   const [error, setError] = useState("")
