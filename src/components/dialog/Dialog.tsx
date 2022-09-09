@@ -1,7 +1,12 @@
+import style from "./Dialog.module.css"
+
+
 export const Dialog = () => {
   return (
-    <div>
-      Dialog
+    <div className={style.dialogContent}>
+      <div className={style.interlocutorName}>
+        Danila Kochinov
+      </div>
     </div>
   )
 }

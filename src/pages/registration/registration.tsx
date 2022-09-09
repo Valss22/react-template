@@ -1,7 +1,6 @@
-import React from "react"
 import {UserForm} from "../../components/user-form/UserForm";
 
-export const Registration: React.FC = () => {
+export const Registration = () => {
   return (
     <UserForm title={"Register"} url={"user/register/"}/>
   )

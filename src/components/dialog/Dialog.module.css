@@ -1,0 +1,14 @@
+.dialogContent {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.interlocutorName {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}

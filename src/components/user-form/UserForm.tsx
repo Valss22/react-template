@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./UserForm.module.css"
 import {useUserForm} from "./hook";
 import {UserProps} from "./types";
